@@ -54,7 +54,7 @@ export const Intro = styled.span`
   }
 `;
 
-export const LinkProjects = styled.button`
+export const CallMe = styled.button`
   width: 10rem;
   padding: 10px;
   display: flex;

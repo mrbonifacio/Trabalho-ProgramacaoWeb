@@ -22,7 +22,7 @@ export default function Header() {
             Batman
           </Title>
           <SubTitle>
-            Contrate!
+          I am the night. I'm batman!
           </SubTitle>
         </ContentTitle>
         <Menu>
@@ -33,11 +33,11 @@ export default function Header() {
           <Link href="/">
             <Ancora className={activeLink('')} onClick={showSiderbar}>Home</Ancora>
           </Link>
-          <Link href="projects">
-            <Ancora className={activeLink('projects')} onClick={showSiderbar}>Projetos</Ancora>
-          </Link>
           <Link href="contact">
-            <Ancora className={activeLink('contact')} onClick={showSiderbar}>Contato</Ancora>
+            <Ancora className={activeLink('contact')} onClick={showSiderbar}>Call me!</Ancora>
+          </Link>
+          <Link href="aboutme">
+            <Ancora className={activeLink('aboutme')} onClick={showSiderbar}>About me!</Ancora>
           </Link>
         </NavLinks>
       </Content>
