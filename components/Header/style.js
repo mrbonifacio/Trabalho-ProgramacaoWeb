@@ -47,6 +47,7 @@ export const Ancora = styled.a`
   font-size: 20px;
   height: 100px;
   transition: 0.3s;
+  color: #FFFFFF;
   
   &.active {
     background-color: black;
